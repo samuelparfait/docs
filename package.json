@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "preview": "tsx scripts/convert && tsx scripts/generate && npx serve public",
     "create:adr": "tsx scripts/create",
-    "convert": "tsx scripts/convert"
+    "convert": "tsx scripts/convert",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "keywords": [],
   "author": "",
