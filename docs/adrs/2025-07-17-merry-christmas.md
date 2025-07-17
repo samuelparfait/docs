@@ -1,0 +1,24 @@
+# Merry Christmas
+
+## Status
+Proposed
+
+## Date
+2025-07-17
+
+## Context
+[Describe the background or situation.]
+
+## Decision
+[What decision has been made.]
+
+## Rationale
+[Why this decision was made.]
+
+## Consequences
+[Positive and negative consequences.]
+
+## Alternatives
+[List other options and explain why they weren't chosen.]
+
+## References
