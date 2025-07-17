@@ -10,7 +10,7 @@ importers:
     dependencies:
       marked:
         specifier: ^16.0.0
-        version: 16.0.0
+        version: 16.1.0
       picocolors:
         specifier: ^1.1.1
         version: 1.1.1
@@ -199,8 +199,8 @@ packages:
   get-tsconfig@4.10.1:
     resolution: {integrity: sha512-auHyJ4AgMz7vgS8Hp3N6HXSmlMdUyhSUrfBF16w153rxtLIEOE+HGqaBppczZvnHLqQJfiHotCYpNhl0lUROFQ==}
 
-  marked@16.0.0:
-    resolution: {integrity: sha512-MUKMXDjsD/eptB7GPzxo4xcnLS6oo7/RHimUMHEDRhUooPwmN9BEpMl7AEOJv3bmso169wHI2wUF9VQgL7zfmA==}
+  marked@16.1.0:
+    resolution: {integrity: sha512-Me7BNa1aqrxVinDnFfvCgHh2yHvLbFvILBs899MhuBpbE5VPzpSqv7alaESfkqkgc9JNvUGH4gqwZeOzLnY8Jg==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -343,7 +343,7 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  marked@16.0.0: {}
+  marked@16.1.0: {}
 
   picocolors@1.1.1: {}
 
