@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsx scripts/convert && tsx scripts/generate",
     "dev": "tsx --watch src/index",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preview": "tsx scripts/convert && tsx scripts/generate && npx serve public",
+    "preview": "pnpm run build && npx serve public",
     "create:adr": "tsx scripts/create",
     "convert": "tsx scripts/convert",
     "prepare": "git config core.hooksPath .githooks",

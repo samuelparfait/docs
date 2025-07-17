@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "Building site before commit..."
+pnpm run build
+git add public/
