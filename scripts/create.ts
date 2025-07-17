@@ -12,7 +12,11 @@ if (argv.length === 0) {
 }
 
 const title = argv.join(" ").trim();
-const slug = title.toLowerCase().replace(/\s+/g, "-");
+// Remove all special characters except spaces and hyphens, then replace spaces with hyphens
+const slug = title
+  .toLowerCase()
+  .replace(/[^a-z0-9\s-]/g, "") // remove special characters except spaces and hyphens
+  .replace(/\s+/g, "-"); // replace spaces with hyphens
 const adrDir = path.join("docs", "adrs");
 
 if (!fs.existsSync(adrDir)) fs.mkdirSync(adrDir, { recursive: true });
