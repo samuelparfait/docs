@@ -1,0 +1,26 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/index",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preview": "tsx scripts/convert && tsx scripts/generate && npx serve public",
+    "create:adr": "tsx scripts/create",
+    "convert": "tsx scripts/convert"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "marked": "^16.0.0",
+    "picocolors": "^1.1.1"
+  }
+}
