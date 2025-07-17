@@ -1,4 +1,4 @@
 #!/bin/sh
-echo "Building site before commit..."
+echo "Generating preview..."
 pnpm run build
 git add public/
